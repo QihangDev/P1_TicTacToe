@@ -1,0 +1,24 @@
+.globalContainer{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    border: 1px solid black;
+    justify-content: center;
+    padding: 2%;
+    margin-bottom: 20px;
+}
+
+.item{
+    width: 30%;
+    aspect-ratio: 1 / 1;
+    background-color: rgb(255, 229, 181);
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+main{
+    display: grid;
+    place-items: center;
+}
