@@ -3,7 +3,7 @@ import { Cell } from './Cell.js';
 export class Board {
     constructor(x,y){
         this.cells = new Map();
-        CreateBoard(x,y);
+        this.CreateBoard(x,y);
     }
 
     CreateBoard(x,y){
