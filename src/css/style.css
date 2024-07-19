@@ -16,9 +16,17 @@
     background-color: rgb(255, 229, 181);
     margin-top: 1%;
     margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main{
     display: grid;
     place-items: center;
+}
+
+img{
+    width: 90%;
+    height: 90%;
 }
