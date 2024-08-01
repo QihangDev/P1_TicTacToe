@@ -18,4 +18,8 @@ export class Board {
         this.cells.get(`${x},${y}`).Show();
         this.cells.get(`${x},${y}`).Select(value);
     }
+
+    IsGameOver(){
+        //Check if game is over to validate the winner
+    }
 }
